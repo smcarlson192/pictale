@@ -2,13 +2,14 @@ body {
     margin:0;
     padding:0;
     display:block;
+    color:#27005E;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    }
 
 section {
     width: 100%;
@@ -100,6 +101,10 @@ p {
 
 .txtw {
     color: #FFFFFF;
+}
+
+.txtmv {
+   color: #4603A6;
 }
 
 .gap-r {

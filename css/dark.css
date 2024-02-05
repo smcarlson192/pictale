@@ -16,8 +16,10 @@
         background-image: url(/../../images/footerdark.svg); /* The image used */
         background-color: #27005E; /* Used if the image is unavailable */
     }
+
     .hero {
         background-image: url(/../../images/backgroundDark.svg); /* The image used */
         background-color: #27005E; /* Used if the image is unavailable */
     }
+    
     }

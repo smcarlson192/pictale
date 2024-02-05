@@ -92,7 +92,7 @@ p {
 .hero {
 	height: 100%;
 	width: 100%;
-	background: url('../images/Bkgd.svg'); /* The image used */
+	background: url('../images/Bkgd.svg')!important; /* The image used */
     background-color: #4603A6; /* Used if the image is unavailable */
 	background-size: cover;
 	background-repeat: no repeat;

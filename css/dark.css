@@ -13,12 +13,12 @@
     }
 
     .footer {
-        background: url("/images/footerdark.svg"); /* The image used */
+        background: url("/images/frdark.svg"); /* The image used */
         background-color: #27005E; /* Used if the image is unavailable */
     }
 
     .hero {
-        background: url("/images/BackgroundDark.svg"); /* The image used */
+        background: url("/images/BkgdDark.svg"); /* The image used */
         background-color: #27005E; /* Used if the image is unavailable */
     }
 

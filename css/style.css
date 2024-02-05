@@ -92,7 +92,7 @@ p {
 .hero {
 	height: 100%;
 	width: 100%;
-	background-image: url("/images/Background.svg"); /* The image used */
+	background-image: url("images/Background.svg"); /* The image used */
     background-color: #4603A6; /* Used if the image is unavailable */
 	background-size: cover;
 	background-repeat: no repeat;
@@ -183,7 +183,7 @@ p {
 .footer {
 	height: 100%;
 	width: 100%;
-	background-image: url("/images/footer.svg"); /* The image used */
+	background-image: url("images/footer.svg"); /* The image used */
     background-color: #4603A6; /* Used if the image is unavailable */
 	background-size: cover;
 	background-repeat: no repeat;

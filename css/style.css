@@ -1,0 +1,377 @@
+body {
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height:100%;
+}
+
+h1 {
+    font-size: 48px; 
+    font-family: Kanit; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    display: block;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 32px; 
+    font-family: Kanit; 
+    font-weight: 300; 
+    word-wrap: break-word;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 28px; 
+    font-family: Maitree; 
+    font-weight: 700; 
+    line-height: 40px;
+     word-wrap: break-word;
+     margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 24px; 
+    font-family: Maitree; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    display: block;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-size: 24px; 
+    font-family: Maitree; 
+    font-weight: 400; 
+    line-height: 31px; 
+    word-wrap: break-word;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 20px; 
+    font-family: Maitree; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    display: block;
+    margin-bottom: 12px;
+} 
+
+.p-all {
+    padding-left: 72px;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    padding-right: 72px;
+}
+
+.nav-logo {
+    width: 315px;
+}
+
+.appbutton {
+    width: auto;
+    height: 60px;
+}
+
+.hero {
+	height: 100%;
+	width: 100%;
+	background-image: url(/../../images/background.svg); /* The image used */
+    background-color: #4603A6; /* Used if the image is unavailable */
+	background-size: cover;
+	background-repeat: no repeat;
+	background-position: center center;
+}
+
+.txtw {
+    color: #FFFFFF;
+}
+
+.gap-r {
+    padding-right: 48px;
+}
+
+.p-rl {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.m-b {
+    margin-bottom: 24px; 
+}
+
+.m-t {
+    margin-top: 24px; 
+}
+
+.project-photo {
+    max-width:100%;
+    height:auto;
+    max-height: 509px;
+}
+
+.spacer {
+    width: 100%; 
+    height: 100%; 
+    border: 1px #E1CFFA solid; 
+    margin: auto;
+}
+
+.grid-r1third {
+    display: grid;
+    grid-template-areas: 
+    'r2Third r2Third r1Third';
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 1fr;
+}
+
+.grid-r1Third-1 {grid-area: r2Third;}
+.grid-r1Third-2 {grid-area: r1Third;}
+
+.grid-half1r {
+    display: grid;
+    grid-template-areas: 
+    'HalfLeft HalfRight';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.HalfLeft {grid-area: HalfLeft;}
+.HalfRight {grid-area: HalfRight;}
+
+.grid-3x2 {
+    display: grid;
+    grid-template-areas: 
+    '1Third 2Third 3Third'
+    '4Third 5Third 6Third';
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+}
+
+.grid-3x2-1 {grid-area: 1Third;}
+.grid-3x2-2 {grid-area: 2Third;}
+.grid-3x2-3 {grid-area: 3Third;}
+.grid-3x2-4 {grid-area: 4Third;}
+.grid-3x2-5 {grid-area: 5Third;}
+.grid-3x2-6 {grid-area: 6Third;}
+
+.featureImg {
+    max-width:80%;
+    height:auto;
+}
+
+.footer {
+	height: 100%;
+	width: 100%;
+	background-image: url(/../../images/footer.svg); /* The image used */
+    background-color: #4603A6; /* Used if the image is unavailable */
+	background-size: cover;
+	background-repeat: no repeat;
+	background-position: center center;
+    justify-content: space-between; 
+    align-items: center; 
+    align-content: center; 
+    display: inline-flex;
+}
+.footerbar {
+    width: 100%; 
+    height: 100%; 
+    padding-top: 24px; 
+    padding-bottom: 24px; 
+    justify-content: space-between; 
+    align-content: center; 
+    align-items: center; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.socialbutton {
+    width: auto;
+    height: 86px;
+}
+
+.contact-column {
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    align-content: center;
+    display: inline-flex;
+}
+.copyright {
+    width: 94%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    word-wrap: break-word
+}
+.copyright-font {
+    color: #27005E; 
+    font-size: 16px; 
+    font-family: Maitree; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+@media only screen and (min-width: 768.1px) and (max-width: 1100px) {
+    .grid-half1r {
+        display: grid;
+        grid-template-areas: 
+        'HalfLeft' 
+        'HalfRight';
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .grid-3x2 {
+        display: grid;
+        grid-template-areas: 
+        '1Third 2Third' 
+        '3Third 4Third' 
+        '5Third 6Third';
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .nav-logo {
+        width: 150px;
+    }
+    
+    .project-photo {
+        max-width:100%;
+        height:auto;
+        max-height: 430px;
+    }
+
+    .featureImg {
+        max-width:50%;
+        height:auto;
+    }
+
+    h1 {
+        font-size: 32px; 
+        font-family: Kanit; 
+        font-weight: 600; 
+        word-wrap: break-word;
+        display: block;
+        margin-bottom: 12px;
+    }
+    
+    h2 {
+        font-size: 28px; 
+        font-family: Kanit; 
+        font-weight: 300; 
+        word-wrap: break-word;
+        margin-bottom: 12px;
+    }
+    
+    h3 {
+        font-size: 24px; 
+        font-family: Maitree; 
+        font-weight: 700; 
+        line-height: 40px;
+         word-wrap: break-word;
+         margin-bottom: 12px;
+    }
+    
+    h4 {
+        font-size: 20px; 
+        font-family: Maitree; 
+        font-weight: 600; 
+        word-wrap: break-word;
+        display: block;
+        margin-bottom: 12px;
+    }
+    
+    h5 {
+        font-size: 20px; 
+        font-family: Maitree; 
+        font-weight: 400; 
+        line-height: 31px; 
+        word-wrap: break-word;
+        margin-bottom: 12px;
+    }
+    
+    p {
+        font-size: 16px; 
+        font-family: Maitree; 
+        font-weight: 400; 
+        word-wrap: break-word;
+        display: block;
+        margin-bottom: 12px;
+    } 
+    .p-all {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .p-rl {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .appbutton {
+        width: auto;
+        height: 45px;
+    }
+
+    .grid-half1r {
+        display: grid;
+        grid-template-areas: 
+        'HalfLeft' 
+        'HalfRight';
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .HalfRight {
+        display: none;
+    }
+
+    .grid-3x2 {
+        display: grid;
+        grid-template-areas: 
+        '1Third' 
+        '2Third' 
+        '3Third' 
+        '4Third' 
+        '5Third' 
+        '6Third';
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+
+    .footerbar {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .copyright {
+        justify-content: flex-start;
+    }
+
+}

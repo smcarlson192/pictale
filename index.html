@@ -3,141 +3,131 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PicTale</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+        <link rel="icon" type="image/x-icon" href="/images/Favicon-purple.svg">
        <!-- this is an absolute link
          <link rel="stylesheet" href="https://smcarlson192.github.io/UX_UI_HW_17/css/style.css"> 
         -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Maitree" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/dark.css">
     </head>
     <body>
-        <header class="header p-rl">
-            <nav class="navbar">
-                <a href="index.html" class="nav-logo">
+        <header class="hero">
+            <nav class="navbar p-all">
+                <a href="index.html">
                     <picture>
-                        <img src="images/Horizontallogo.svg" alt="PicTale Logo" width="315" height="98">
+                        <img src="images/Horizontallogo.svg" class="nav-logo" alt="PicTale Logo" width="315" height="98">
                     </picture>
                 </a>
             </nav>
-        </header>
-        <section>
-            <div class="p-all bkgdcgradient">
-                <div class="grid-container-project">
-                    <div class="item18">
-                        <h3 class="m-b gap-r">The Mobile Scrapbooking App</h3>
-                        <h1 class="m-b gap-r">Unveil Your Story, One Snapshot at a Time.</h1>
-                        <p class="m-b gap-r fc-p">PicTale is your digital scrapbook, seamlessly organizing your life's moments, from cherished photos to heartfelt notes, into a personalized narrative. Capture, reminisce, and share your story effortlessly, preserving memories for generations to come.</p>     
-                        <a href="https://www.apple.com/app-store/" target="_blank" class="button-circle-1">
+            <div class="p-all">
+                <div class="grid-half1r">
+                    <div class="HalfLeft">
+                        <h3 class="gap-r txtw">The Mobile Scrapbooking App</h3>
+                        <h1 class="gap-r txtw">Unveil Your Story, One Shanpshot at a Time.</h1>
+                        <p class="m-b gap-r txtw">PicTale is your digital scrapbook that will seamlessly organizing your life's moments into a personalized narrative. Capture, reminisce, and share your story effortlessly, preserving memories for generations to come.</p>     
+                        <a href="https://www.apple.com/app-store/" target="_blank">
                             <picture>
-                                <img src="images/MacAppStore.svg" alt="App Store" width="254" height="60">
+                                <img src="images/MacAppStore.svg" alt="App Store" class="appbutton" width="254" height="60">
                             </picture>
                         </a>
-                        <a href="https://play.google.com/store/games?hl=en&gl=US" target="_blank" class="button-circle-1">
+                        <a href="https://play.google.com/store/games?hl=en&gl=US" target="_blank">
                             <picture>
-                                <img src="images/play.svg" alt="Google Play Store" width="207" height="60">
+                                <img src="images/play.svg" alt="Google Play Store" class="appbutton" width="207" height="60">
                             </picture>
                         </a>
                     </div>
-                    <div class="item19">
-                        <img class="project-photo" src="images/Mockups.png" alt="PicTale Mobile Application Mockup" width="618" height="509">
+                    <div class="HalfRight m-t">
+                        <img class="project-photo" src="images/Mockups.svg" alt="PicTale Mobile Application Mockup" width="618" height="509">
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
         <section>
             <div class="p-all">
             <!-- Project Discover Section Constructed using CSS Grid -->
                 <div>
                     <h2>About PicTale</h2>
-                    <p>Inspired from the need to preserve scattered memories amidst a bustling life, PicTale was born as a solution to elegantly organize life's precious moments. Catering to busy professionals, parents, and sentimental souls alike, PicTale simplifies the process of curating and sharing personal stories through its intuitive interface and collaborative features, fostering a deeper connection to the memories that matter most.</p>
+                    <p class="m-b">Inspired from the need to preserve scattered memories amidst a bustling life, PicTale was born as a solution to elegantly organize life's precious moments. Catering to busy professionals, parents, and sentimental souls alike, PicTale simplifies the process of curating and sharing personal stories through its intuitive interface and collaborative features, fostering a deeper connection to the memories that matter most.</p>
                 </div>
-                <div class="spacer"></div>
-                <div class="m-t m-b">
-                    <h2 class="m-b">Features</h2>
-                    <div>
-                        <picture>
-                            <source media="(max-width:768px)" srcset="images/CCftA-Design-Process-mobile.svg">
-                            <img src="images/OrgainizedLibrary.svg" alt="Photo Organization Graphic" width="416" height="294">
-                        </picture>
-                        <h3>Intelligent Photo Library Organization</h3>
-                        <p>Automatically organize memories by location, date, and relevance, making it easy to navigate through your personal narrative and find the moments that matter most.</p>
-                    </div>
-                    <div>
-                        <picture>
-                            <source media="(max-width:768px)" srcset="images/CCftA-Design-Process-mobile.svg">
-                            <img src="images/DigitalScrap.svg" alt="Digital Scrapbooking Graphic" width="416" height="294">
-                        </picture>
-                        <h3>AI-Driven Digital Scrapbooking</h3>
-                        <p>Access a suite of creative tools such as filters, stickers, and themes for users to enhance and personalize their memories within the app.</p>
-                    </div>
-                    <div>
-                        <picture>
-                            <source media="(max-width:768px)" srcset="images/CCftA-Design-Process-mobile.svg">
-                            <img src="images/SocialMedia.svg" alt="Social Media Integration Graphic" width="416" height="294">
-                        </picture>
-                        <h3>Multi-Platform Integration</h3>
-                        <p>Seamlessly integrate with various platforms, including social media, allowing users to share their memories with their friends and loved ones.</p>
-                    </div>
-                    <div>
-                        <picture>
-                            <source media="(max-width:768px)" srcset="images/CCftA-Design-Process-mobile.svg">
-                            <img src="images/Customizable.svg" alt="Memory Templates Graphic" width="416" height="294">
-                        </picture>
-                        <h3>Customizable Memory Templates</h3>
-                        <p>Choose from a variety of pre-designed templates to create beautifully curated memory collections for different occasions such as birthdays, vacations, or holidays, allowing users to easily showcase their memories to their friends and family.</p>
-                    </div>
-                    <div>
-                        <picture>
-                            <source media="(max-width:768px)" srcset="images/CCftA-Design-Process-mobile.svg">
-                            <img src="images/Notifications.svg" alt="Flashback Notifications Graphic" width="416" height="294">
-                        </picture>
-                        <h3>Flashback Notifications </h3>
-                        <p>Recall memories and moments from the past through personalized recommendations and curated collections, encouraging users to revisit and relive their favorite moments.</p>
-                    </div>
-                    <div>
-                        <picture>
-                            <source media="(max-width:768px)" srcset="images/CCftA-Design-Process-mobile.svg">
-                            <img src="images/Audio.svg" alt="Voice & Video Journaling Graphic" width="416" height="294">
-                        </picture>
-                        <h3>Voice and Video Journaling</h3>
-                        <p>Allow users to record voice or video snippets to accompany their photos and notes, adding a multi-sensory layer to their digital scrapbook.</p>
+                <div class="spacer m-t m-b"></div>
+                <div>
+                    <h2 class="m-t">Features</h2>
+                    <div class="grid-3x2">
+                        <div class="grid-3x2-1 gap-r">
+                            <picture>
+                                <img src="images/OrgainizedLibrary1.svg" class="featureImg" alt="Photo Organization Graphic" width="416" height="294">
+                            </picture>
+                            <h3 class="m-t">Intelligent Photo Library Organization</h3>
+                            <p>Automatically organize memories by location, date, and relevance, making it easy to navigate through your personal narrative and find the moments that matter most.</p>
+                        </div>
+                        <div class="grid-3x2-2 gap-r">
+                            <picture>
+                                <img src="images/DigitalScrap1.svg" class="featureImg" alt="Digital Scrapbooking Graphic" width="416" height="294">
+                            </picture>
+                            <h3 class="m-t">AI-Driven Digital Scrapbooking</h3>
+                            <p>Access a suite of creative tools such as filters, stickers, and themes for users to enhance and personalize their memories within the app.</p>
+                        </div>
+                        <div class="grid-3x2-3 gap-r">
+                            <picture>
+                                <img src="images/SocialMedia1.svg" class="featureImg" alt="Social Media Integration Graphic" width="416" height="294">
+                            </picture>
+                            <h3 class="m-t">Multi-Platform Integration</h3>
+                            <p>Seamlessly integrate with various platforms, including social media, allowing users to share their memories with their friends and loved ones.</p>
+                        </div>
+                        <div class="grid-3x2-4 gap-r">
+                            <picture>
+                                <img src="images/Customizable1.svg" class="featureImg" alt="Memory Templates Graphic" width="416" height="294">
+                            </picture>
+                            <h3 class="m-t">Customizable Memory Templates</h3>
+                            <p>Choose from a variety of pre-designed templates to create beautifully curated memory collections for different occasions such as birthdays, vacations, or holidays, allowing users to easily showcase their memories to their friends and family.</p>
+                        </div>
+                        <div class="grid-3x2-5 gap-r">
+                            <picture>
+                                <img src="images/Notifications1.svg" class="featureImg" alt="Flashback Notifications Graphic" width="416" height="294">
+                            </picture>
+                            <h3 class="m-t">Flashback Notifications </h3>
+                            <p>Recall memories and moments from the past through personalized recommendations and curated collections, encouraging users to revisit and relive their favorite moments.</p>
+                        </div>
+                        <div class="grid-3x2-6 gap-r">
+                            <picture>
+                                <img src="images/Audio1.svg" class="featureImg" alt="Voice & Video Journaling Graphic" width="416" height="294">
+                            </picture>
+                            <h3 class="m-t">Voice and Video Journaling</h3>
+                            <p>Allow users to record voice or video snippets to accompany their photos and notes, adding a multi-sensory layer to their digital scrapbook.</p>
+                        </div>
                     </div>
                 </div>
             </div> 
         </section>
-        <footer class="footer p-rl">
-            <div class="footerbar">
-                <div class="logo">
-                    <picture>
-                        <img src="images/Horizontallogo.svg" alt="PicTale" width="315" height="98">
-                    </picture>
-                </div>
-                <div class=".contact-column">
-                    <div class="d-f-g">
+        <footer>
+            <div class="footer p-rl">
+                <div class="footerbar">
+                    <div class="logo">
                         <picture>
-                            <source media="(prefers-color-scheme:dark)" srcset="images/facebookDkMd.svg">
-                            <img src="images/facebook.svg" alt="facebook" style="width:32px; height:32px;">
+                            <img src="images/Horizontallogo.svg" alt="PicTale" width="315" height="98">
                         </picture>
-                        <picture>
-                            <source media="(prefers-color-scheme:dark)" srcset="images/InstaDkMd.svg">
-                            <img src="images/Insta.svg" alt="Instagram" style="width:32px; height:32px;">
-                        </picture>
-                        <picture>
-                            <source media="(prefers-color-scheme:dark)" srcset="images/LinkedInDkMd.svg">
-                            <img src="images/LinkedIn.svg" alt="LinkedIn" style="width:32px; height:32px;">
-                        </picture>
+                    </div>
+                    <div class="contact-column">
+                        <div>
+                            <picture>
+                                <img src="images/square-facebook.svg" alt="facebook" class="socialbutton" width="75px" height="86px">
+                            </picture>
+                            <picture>
+                                <img src="images/square-instagram.svg" alt="Instagram" class="socialbutton" width="75px" height="86px">
+                            </picture>
+                            <picture>
+                                <img src="images/square-x-twitter.svg" alt="Twitter" class="socialbutton" width="75px" height="86px">
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <section>
-            <div class="copyright">
+            <div class="copyright m-t m-b p-rl">
                 <div class="copyright-font">Copyright © 2024 PicTale | Chicago, IL</div>
             </div>
-        </section>
+        </footer>
     </body>
-    <script src="js/index.js"></script>
     </html>

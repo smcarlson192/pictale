@@ -89,15 +89,27 @@ p {
     height: 60px;
 }
 
-.hero {
-	height: 100%;
+header.hero {
+    height: 100%;
 	width: 100%;
-	background: url('../images/Bkgd.svg')!important; /* The image used */
+	background: url('../images/Bkgd.svg'); /* The image used */
     background-color: #4603A6; /* Used if the image is unavailable */
 	background-size: cover;
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+/*
+.hero {
+	height: 100%!important;
+	width: 100%!important;
+	background: url('../images/Bkgd.svg')!important;
+    background-color: #4603A6; 
+	background-size: cover!important;
+	background-repeat: no-repeat!important;
+	background-position: center center!important;
+}
+*/
 
 .txtw {
     color: #FFFFFF;
